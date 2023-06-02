@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMKT</title>
+</head>
+
+
+<body>
+    <header>
+        <div class = "img_logo">
+            <img class = "logo_parcele" src="/img/logo_parceleAqui_color 1.png" alt="Logo_Parcele_Aqui">
+        </div>
+        <div class ="linha"></div>
+    </header>
+
+
+    <main>
+        <p class ="ola">Olá Henrique!</p>
+        <div class ="main_inicio">
+            <p class = "conteudo">Você recebeu uma solicitação de pagamento da empresa xxxxxx!<br>Clique no botão abaixo para acessar:</p>
+        </div>
+<br>
+        <div class = "main_botao">
+            <button class ="botao">Acesse Solicitação</button>
+        </div>
+<br>
+        <div class = "card_main">
+            <p class = "titulo_main">Como funciona?</p>
+            <p class = "passos_main">Passo 1: Confira o valor da compra<br>Passo 2: Escolha em quantas vezes você quer pagar<br> Passo 3: Digite os dados do seu cartão de crédito<br> Passo 4: Finalize o pagamento<br> Passo 5: Acompanhe sua compra </p>
+        </div>
+<br>
+        <div class ="main_final">
+            <p class ="final">Atenciosamente<br>Equipe Parcele-Aqui</p>
+        </div>
+        
+    </main>
+
+
+
+    <footer>
+        <div id="footer_content">
+            
+                <p class = "p_footer">Siga o <strong>Parcele Aqui</strong> nas redes sociais</p>
+                <div id = "footer_social">
+                    <a href ="#" class ="footer_link" id="face">
+                        <img src = "/img/image 1.svg">
+                    </a>
+
+                    <a href ="#" class ="footer_link" id="linkedin">
+                        <img src = "/img/image 2.svg">
+                    </a>
+
+                    <a href ="#" class ="footer_link" id="zap">
+                        <img src = "/img/image 3.svg">
+                    </a>
+                </div>
+        
+        </div>
+            
+    </footer>
+
+
+</body>
+</html>
+
+<style>
+
+/* Body */
+body{
+    width: 37rem;
+    height:40rem ;
+    
+}
+
+/* HEADER */
+
+.img_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    border:2px solid #FFCB31;
+    width: 37rem;
+    height: 0;
+}
+
+/*MAIN INICIO*/ 
+
+.ola{
+    padding-left: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.conteudo{
+    padding-left: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+
+
+
+/* botao */
+.botao{
+    background: #FFCB31;
+    border: 1px solid whites;
+    border-radius: 5px;
+    width:10rem ;
+    height: 3rem;
+    cursor: pointer;
+    
+}
+
+.main_botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*card passos*/
+
+
+.titulo_main{
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+.passos_main{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 21px;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+/* MAIN FINAL */
+
+.main_final{
+    padding-left: 1rem;
+}
+
+.final{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    font-style: normal;
+}
+
+/* FOOTER*/
+
+footer{
+   width: 100%;
+   color: white;
+}
+
+#footer_content{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: black;
+   padding: 0.5rem;
+}
+
+#footer_social{
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.p_footer{
+    padding-top: 1.2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+#footer_social .footer_link{
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#face{
+    background: #FFCB31;
+}
+
+#linkedin{
+    background: #FFCB31;
+}
+
+#zap{
+    background: #FFCB31;
+}
+
+#footer_social .footer_link:hover{
+    background-color: antiquewhite;
+    opacity: 0.8;
+}
+
+</style>
