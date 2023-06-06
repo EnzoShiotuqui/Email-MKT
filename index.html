@@ -6,221 +6,278 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMKT</title>
 </head>
+<!-- SOLICITAÇÃO -->
+<body style="font-family: 'Arial', sans-serif;">
+    <table  width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <!-- HEADER -->
 
+                <table align="center" width="600px" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                        <td align="center" style="padding: 2.5rem 0 1.875rem 0">
+                            <img src="data:image/png;base64,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" alt="logo Parcele aqui">        
+                        </td>
+                    </tr>
 
-<body>
-    <header>
-        <div class = "img_logo">
-            <img class = "logo_parcele" src="/img/logo_parceleAqui_color 1.png" alt="Logo_Parcele_Aqui">
-        </div>
-        <div class ="linha"></div>
-    </header>
+                    <!-- CORPO SOLICITAÇÃO  -->
+                    <tr>
+                        <td>
+                            <table role="presentation">
+                                <div style="border:2px solid #FFCB31"></div>    
+                            </table>
+                            <table role="presentation">
+                                <tr>
+                                    <td>
+                                        <h4 style="font-family: 'Arial', sans-serif; font-weight: 400; font-size: 0.9rem; font-style: normal">Olá Henrique!</h4>
+                                        <span style="font-family: 'Arial', sans-serif; font-weight: 400; font-size: 0.9rem; font-style: normal">Você recebeu uma solicitação de pagamento da empresa xxxxxx!<br>Clique no botão abaixo para acessar:</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table align="center" role="presentation"> 
+                                <tr>
+                                    <td>
+                                        <a href="#" style="text-decoration: none; background: #FFCB31; cursor: pointer; height: 3rem; width:10rem;border-radius: 5px;border: 1px solid white; padding:15px; color:#000000">
+                                            Acesse Solicitação
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table role="presentation">
+                                <tr>
+                                    <td>
+                                        <h4 style="font-size: 1rem;font-weight: 400;font-family: 'Arial', sans-serif; padding-top:0.3rem; font-style: normal;">Como Funciona?</h4>
+                                        <span style=" font-family: 'Arial', sans-serif;font-size: 0.9rem;font-weight: 400;font-style: normal">Passo 1: Confira o valor da compra<br>Passo 2: Escolha em quantas vezes você quer pagar<br> Passo 3: Digite os dados do seu cartão de crédito<br> Passo 4: Finalize o pagamento<br> Passo 5: Acompanhe sua compra </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table role="presentation">
+                                <tr>
+                                    <td>
+                                        <h4 style="font-style: normal; font-size: 0.9rem; font-family: 'Arial', sans-serif; font-weight: 400">Atenciosamente<br>Equipe Parcele-Aqui</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!-- FOOTER -->
+                    <tr>
+                        <td bgcolor="#000000" style="padding:15px; color:#fff ;" align="center" >
+                           <table width="100%"  cellspacing="0" cellpadding="2"  role="presentation">
+                                <tr align="center">
+                                    <td align="center">
+                                        <span>Siga o <strong>Parcele Aqui</strong> nas redes sociais</span>
+                                    </td>
+                                    <td>   
+                                      <td style=" border-radius: 50%; background: #FFCB31; height: 2.5rem;  width: 2.5rem">
+                                          <a href="#">
+                                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADISURBVHgB7ZI9CgIxEIXfJIKdlY3dYilewpt4DG/hDfYUaudFFEQQbERwiwVhXeMICiZmdUywWfbBkGR+vsDMAHIlgJoCtCMocze+5+xLEaGEIfsn0Da99BUoGZdSAvXwg1qCnAFDR47vxL45nwVgNiYQ3HfeW4PrkGH5pyJBK3TXfpsVvkCF4DcVkqQQcIxowcPJHnZ2Vqx8iWWcPPERqobXZninIqbsmDoCpS8pVrSG//dYXQ4Ikx7bPaaZpOpvW9GAG3AdwDempi+zI160WQAAAABJRU5ErkJggg==" alt="logo facebook">         
+                                       </a>
+                                     </td>
+                                    </td>
+                                    <td>
+                                        <td>
+                                            <td>
+                                                <td>
+                                                    <td>
+                                                        <td>
+                                                            <td style=" border-radius: 50%; background: #FFCB31;  padding-top:0.3rem  ; height: 2.5rem;  width: 2.5rem">
+                                                               <a href="#">
+                                                                   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC0SURBVHgB7ZGxCcJQEIZ/RTClDiDiBo6gEwiCtaWFM4jDuICdpY4QHECtbRIrO/U/vOgZQzhe2vzwwV3Ifcm9BwAzkpAzWSIwMvxURBYhIImRCG0EZKHDD7JChcgKHQSmQSZGcCU7refmvQO56bMhSUlMNnhvgD2+53E0g/ac1vi9gIxT9gMeyb1A8PlAC75EupIwyK069UouZGz6Phlp3WvCl22uj03d9UrSst4rKU0t+c8LKNI3nnfuqFIAAAAASUVORK5CYII=" alt="logo linkedin" >         
+                                                                </a>
+                                                            </td>
+                                                        </td>
+                                                    </td>
+                                                </td>
+                                            </td>
+                                        </td>
+                                    </td>
+                                    <td>
+                                        <td>
+                                            <td>
+                                                <td>
+                                                    <td>
+                                                        <td>
+                                                            <td style=" border-radius: 50%; background: #FFCB31; padding-top:0.3rem  ;height: 2.5rem;  width: 2.5rem">
+                                                             <a href="#">
+                                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHWSURBVHgBpVXNK0RRFD9GIp9P2crLio3mD5ChWFmynyzslMlaM1ZSiuwxJWUzxV5IoViM8lHGwsdGrMYU+WjCOd7veXeu917X+NXvvd45v3PuPefe+24FmcFidjGrmEXmDfOW/gFJmGJeMj99eM1cZLbRHzHOzCPJG3OPOY/Bppk7zBf4i7AbYQZBjwiyAnQNzDgqEP0Gsy4s8Sx5JZuWazP3EbcdJIqXkdhFEzOL+ISfwC1PTSy9HyUz2OSsk7Ckle6s04ptgryd0UpmSEJfssBbMHYotkMluelukBkXyOnCD6SUO014qiRfJnO4i2tF+FGPEXOaKIO3zGSSzHGCd6ckb8HHhyZaIOeYy04YJnPc410tj1pyysj6CLvhe2cOab4e8scaYmKuQfqdDxAnyOv9FDlbNYXvK3J2mooj+GoCR9Mwwnwl/x9YQdHZsB2owTEYNykYEpj2ST6naJZg06uhYziiFA4bwdKaXsXeTt7vo1EPEuMTlQebvN/Hr1lH4VhXbBaZIaYk9j3JY3CukHMp5PC9yhwISaquQTJA932zqIv0zHxQvuXi2IVOzkNe8V0w+ygEcmWdYdaD5LWkH7M71waXc5FBVZGwxBaZ97eZWWmopS8LQpluIMdQrgAAAABJRU5ErkJggg==" alt="logo Whatsapp">         
+                                                             </a>
+                                                         </td> 
+                                                        </td>
+                                                    </td>
+                                                </td>
+                                            </td>
+                                        </td>
+                                    </td>
+                                </tr>
+                           </table>  
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+<!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- COMPROVANTE -->
+    <table  width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <!-- HEADER -->
 
+                <table align="center" width="600px" cellpadding="0" cellspacing="0" role="presentation">
+                    <tr>
+                        <td align="center" style="padding: 2.5rem 0 1.875rem 0">
+                            <img src="data:image/png;base64,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" alt="logo Parcele aqui">        
+                        </td>
+                    </tr>
 
-    <main>
-        <p class ="ola">Olá Henrique!</p>
-        <div class ="main_inicio">
-            <p class = "conteudo">Você recebeu uma solicitação de pagamento da empresa xxxxxx!<br>Clique no botão abaixo para acessar:</p>
-        </div>
-<br>
-        <div class = "main_botao">
-            <button class ="botao">Acesse Solicitação</button>
-        </div>
-<br>
-        <div class = "card_main">
-            <p class = "titulo_main">Como funciona?</p>
-            <p class = "passos_main">Passo 1: Confira o valor da compra<br>Passo 2: Escolha em quantas vezes você quer pagar<br> Passo 3: Digite os dados do seu cartão de crédito<br> Passo 4: Finalize o pagamento<br> Passo 5: Acompanhe sua compra </p>
-        </div>
-<br>
-        <div class ="main_final">
-            <p class ="final">Atenciosamente<br>Equipe Parcele-Aqui</p>
-        </div>
-        
-    </main>
+                    <!-- CORPO COMPROVANTE -->
+                    <tr>
+                        <td>
+                            <table role="presentation">
+                                <div style="border:2px solid #FFCB31"></div>    
+                            </table>
+                            <table align="center">
+                                <tr align="center">
+                                    <td align="center">
+                                        <h2>O seu pagamento<br>foi aprovado!</h2>
+                                        <h5 style="font-size: 1rem;font-weight: 400">Pedido #646d2c805e61830027ebedb6</h5>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table  align="center">
+                                <tr>
+                                    <td>
+                                        <img src="data:image/png;base64,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">
+                                    </td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h4 style=" font-weight: 500; font-size: 1.1rem; font-style: normal" >Olá,Thiago Lima de Aguiar</h4>
+                                        <span style=" font-weight: 500; font-size: 1.1rem; font-style: normal">Seu pagamento foi aprovado! Obrigado por<br>contar com o Parcele<strong>Aqui</strong></span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table>
+                                <div style="border:1px solid #000000"></div>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h4>Resumo do pedido #646d2c805e61830027ebedb6</h4>
+                                        <br>
+                                        <h4>naNELETROPAULO<br><span style="font-size: 0.9rem;">R$</span> <span style="font-size:1.4rem">35,91</span></h4>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td style="font-size: 1.1rem; line-height:1.7rem">
+                                        <span>COBAN:021717 LOJA:0000001 PDV:000005 <br></span>
+                                        <span>23/05/2023 BANCO DO BRASIL  18:14:48<br></span>
+                                        <span>001800232 CORRESPONDENTE BANCARIO 0062<br></span>
+                                        <span>COMPROVANTE PAGAMENTOs COM COD.BARRA<br></span>
+                                        <span>================================================<br></span>
+                                        <span>NR.AUTENTICACAO 6.F4A.52C.5D9.456.F13<br></span>
+                                        <span>--------------------------------------<br></span>
+                                        <span>SR(A) CLIENTE, ESTE SERVICO NAO TEM<br></span>
+                                        <span>TARIFA, NAO PAGUEM NENHUM VALOR EXTRA<br></span>
+                                        <span>AO ATENDENTE. DENUNCIE 4004-0001</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table>
+                                <div style="border:1px solid #000000"></div>
+                            </table>
+                            <br>
+                            <table>
+                                <h4 align="right" style="font-weight: 500; font-size: 1.2rem; font-style: normal">Total do pedido: <span style="font-weight: bold;">R$:0,00</span></h4>
+                            </table>
+                            <table  cellspacing="10" align="center">
+                                <tr>
+                                    <td>
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAqCAYAAADsxDbcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADXSURBVHgB7dovbgJBFIDxbxpcRU1lTV1v0PQGvQfcBIXiKJwDhUEDFkf4Iwk8nobZdSvm+yUvIRlAfMlmdjZbbjc2wDft2r0hjIAR0ijmFHOgXUckSdIzJc4O77Tt+oiwig9ftGv7uGP8iPmkXWfPDniASkbACMkIGCEZASMkI2CEZASMkIyAEdKox3cmMevK+jzmr7I+i1l0/P+EAfWJsC6F5avFeCizp27b8ft/BublgBGSETBCMgJGSH22yGlsY5fK+i91445t8IeBFd9e8+21ZASMkO5W0SW12JQj2gAAAABJRU5ErkJggg==">
+                                        <td>
+                                            <span style="font-weight: 500; font-size: 1.1rem; font-style: normal">1 Parcelas de R$37.89 no cartão Visa<br>40000*******1091</span>        
+                                        </td>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
+                            <table>
+                                <div style="border:1px solid #000000"></div>
+                            </table>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <h4 style="font-weight: 500; font-size: 1.1rem; font-style: normal">Atenciosamente<br>Equipe Parcele-Aqui</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br>
 
-
-
-    <footer>
-        <div id="footer_content">
-            
-                <p class = "p_footer">Siga o <strong>Parcele Aqui</strong> nas redes sociais</p>
-                <div id = "footer_social">
-                    <a href ="#" class ="footer_link" id="face">
-                        <img src = "/img/image 1.svg">
-                    </a>
-
-                    <a href ="#" class ="footer_link" id="linkedin">
-                        <img src = "/img/image 2.svg">
-                    </a>
-
-                    <a href ="#" class ="footer_link" id="zap">
-                        <img src = "/img/image 3.svg">
-                    </a>
-                </div>
-        
-        </div>
-            
-    </footer>
-
-
+                    <!-- FOOTER -->
+                    <tr>
+                        <td bgcolor="#000000" style="padding:12px; color:#fff ;" align="center" >
+                           <table width="100%"  cellspacing="0" cellpadding="2"  role="presentation">
+                                <tr align="center">
+                                    <td align="center">
+                                        <span>Siga o <strong>Parcele Aqui</strong> nas redes sociais</span>
+                                    </td>
+                                    <td>   
+                                      <td style=" border-radius: 50%; background: #FFCB31; padding-top:0.3rem ;height: 2.5rem;  width: 2.5rem">
+                                          <a href="#">
+                                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADISURBVHgB7ZI9CgIxEIXfJIKdlY3dYilewpt4DG/hDfYUaudFFEQQbERwiwVhXeMICiZmdUywWfbBkGR+vsDMAHIlgJoCtCMocze+5+xLEaGEIfsn0Da99BUoGZdSAvXwg1qCnAFDR47vxL45nwVgNiYQ3HfeW4PrkGH5pyJBK3TXfpsVvkCF4DcVkqQQcIxowcPJHnZ2Vqx8iWWcPPERqobXZninIqbsmDoCpS8pVrSG//dYXQ4Ikx7bPaaZpOpvW9GAG3AdwDempi+zI160WQAAAABJRU5ErkJggg==" alt="logo facebook">         
+                                       </a>
+                                     </td>
+                                    </td>
+                                    <td>
+                                        <td>
+                                            <td>
+                                                <td>
+                                                    <td>
+                                                        <td>
+                                                            <td style=" border-radius: 50%; background: #FFCB31;  padding-top:0.3rem  ; height: 2.5rem;  width: 2.5rem">
+                                                               <a href="#">
+                                                                   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC0SURBVHgB7ZGxCcJQEIZ/RTClDiDiBo6gEwiCtaWFM4jDuICdpY4QHECtbRIrO/U/vOgZQzhe2vzwwV3Ifcm9BwAzkpAzWSIwMvxURBYhIImRCG0EZKHDD7JChcgKHQSmQSZGcCU7refmvQO56bMhSUlMNnhvgD2+53E0g/ac1vi9gIxT9gMeyb1A8PlAC75EupIwyK069UouZGz6Phlp3WvCl22uj03d9UrSst4rKU0t+c8LKNI3nnfuqFIAAAAASUVORK5CYII=" alt="logo linkedin" >         
+                                                                </a>
+                                                            </td>
+                                                        </td>
+                                                    </td>
+                                                </td>
+                                            </td>
+                                        </td>
+                                    </td>
+                                    <td>
+                                        <td>
+                                            <td>
+                                                <td>
+                                                    <td>
+                                                        <td>
+                                                            <td style=" border-radius: 50%; background: #FFCB31; padding-top:0.3rem  ;height: 2.5rem;  width: 2.5rem">
+                                                             <a href="#">
+                                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHWSURBVHgBpVXNK0RRFD9GIp9P2crLio3mD5ChWFmynyzslMlaM1ZSiuwxJWUzxV5IoViM8lHGwsdGrMYU+WjCOd7veXeu917X+NXvvd45v3PuPefe+24FmcFidjGrmEXmDfOW/gFJmGJeMj99eM1cZLbRHzHOzCPJG3OPOY/Bppk7zBf4i7AbYQZBjwiyAnQNzDgqEP0Gsy4s8Sx5JZuWazP3EbcdJIqXkdhFEzOL+ISfwC1PTSy9HyUz2OSsk7Ckle6s04ptgryd0UpmSEJfssBbMHYotkMluelukBkXyOnCD6SUO014qiRfJnO4i2tF+FGPEXOaKIO3zGSSzHGCd6ckb8HHhyZaIOeYy04YJnPc410tj1pyysj6CLvhe2cOab4e8scaYmKuQfqdDxAnyOv9FDlbNYXvK3J2mooj+GoCR9Mwwnwl/x9YQdHZsB2owTEYNykYEpj2ST6naJZg06uhYziiFA4bwdKaXsXeTt7vo1EPEuMTlQebvN/Hr1lH4VhXbBaZIaYk9j3JY3CukHMp5PC9yhwISaquQTJA932zqIv0zHxQvuXi2IVOzkNe8V0w+ygEcmWdYdaD5LWkH7M71waXc5FBVZGwxBaZ97eZWWmopS8LQpluIMdQrgAAAABJRU5ErkJggg==" alt="logo Whatsapp">         
+                                                             </a>
+                                                         </td> 
+                                                        </td>
+                                                    </td>
+                                                </td>
+                                            </td>
+                                        </td>
+                                    </td>
+                                </tr>
+                           </table>  
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
 
-<style>
-
-/* Body */
-body{
-    width: 37rem;
-    height:40rem ;
-    
-}
-
-/* HEADER */
-
-.img_logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.linha{
-    border:2px solid #FFCB31;
-    width: 37rem;
-    height: 0;
-}
-
-/*MAIN INICIO*/ 
-
-.ola{
-    padding-left: 1rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
-    font-style: normal;
-}
-
-.conteudo{
-    padding-left: 1rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
-    font-style: normal;
-}
-
-
-
-
-/* botao */
-.botao{
-    background: #FFCB31;
-    border: 1px solid whites;
-    border-radius: 5px;
-    width:10rem ;
-    height: 3rem;
-    cursor: pointer;
-    
-}
-
-.main_botao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*card passos*/
-
-
-.titulo_main{
-    padding-left: 1rem;
-    padding-top: 1rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1rem;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-}
-
-.passos_main{
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
-    line-height: 21px;
-    font-weight: 400;
-    font-style: normal;   
-}
-
-/* MAIN FINAL */
-
-.main_final{
-    padding-left: 1rem;
-}
-
-.final{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1rem;
-    font-style: normal;
-}
-
-/* FOOTER*/
-
-footer{
-   width: 100%;
-   color: white;
-}
-
-#footer_content{
-    display: flex;
-    justify-content: space-evenly;
-   background-color: black;
-   padding: 0.5rem;
-}
-
-#footer_social{
-    padding-bottom: 1rem;
-    display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-}
-
-.p_footer{
-    padding-top: 1.2rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1rem;
-}
-
-#footer_social .footer_link{
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.5rem;
-    color: white;
-    border-radius: 50%;
-    transition: all 0.4s;
-}
-
-#face{
-    background: #FFCB31;
-}
-
-#linkedin{
-    background: #FFCB31;
-}
-
-#zap{
-    background: #FFCB31;
-}
-
-#footer_social .footer_link:hover{
-    background-color: antiquewhite;
-    opacity: 0.8;
-}
-
-</style>
